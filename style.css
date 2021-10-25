@@ -17,3 +17,6 @@ button:hover{
 p#hidden{
   display: none;
 }
+h1{
+  display: none
+}
