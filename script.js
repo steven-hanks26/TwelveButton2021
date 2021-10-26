@@ -17,3 +17,4 @@ function displayPrompt() {
   document.getElementById("answer").innerHTML = "You like " + answer + " ?";
 }
 
+let x = 1;

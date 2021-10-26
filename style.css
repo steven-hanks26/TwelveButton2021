@@ -23,6 +23,7 @@ h2{
   display: none;
 }
 
+
 button {
   width: 30px;
   height: 20px;
@@ -62,8 +63,18 @@ img#hiddenimage2:hover{
 
 p#hiddentext{
   display:none;
+
+#turn{
+  transform: rotateY(45deg);
 }
 
+button:hover {
+  border: 10px solid tomato;
+}
+
+button.number{
+  border: 5px solid black;
+}
 
 
 h1 {
