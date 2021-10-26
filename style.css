@@ -24,6 +24,57 @@ h2{
 }
 
 
+button {
+  width: 30px;
+  height: 20px;
+  background: rgb(119, 246, 255);
+  transition: width  linear 0.5s;
+}
+button:hover{
+  width: 40px;
+  background: rgb(129, 129, 236);
+  position: relative;
+  top: -6px;
+}
+button#hidden1{
+  display:none;
+}
+button#hidden2{
+  display:none;
+}
+button#hidden3{
+  display:none;
+}
+img#hiddenimage{
+  display:none;
+  transform: translate(50px, 100px);
+}
+img#hiddenimage:hover{
+  transform: rotate(50deg);
+}
+
+img#hiddenimage2{
+  display:none;
+  transition: width 2s, height 2s, transform 2s;
+}
+img#hiddenimage2:hover{
+  transform: rotateY(150deg);
+}
+
+p#hiddentext{
+  display:none;
+
+#turn{
+  transform: rotateY(45deg);
+}
+
+button:hover {
+  border: 10px solid tomato;
+}
+
+button.number{
+  border: 5px solid black;
+}
 
 
 h1 {
