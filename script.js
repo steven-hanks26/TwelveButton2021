@@ -17,3 +17,7 @@ function displayPrompt() {
   document.getElementById("answer").innerHTML = "You like " + answer + " ?";
 }
 
+function scream() {
+  var audio = new Audio("ohmygah.mp3");
+  audio.play();
+}
