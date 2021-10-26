@@ -49,5 +49,24 @@
   
     <p id="hidden">you found me!</p>
     
+
+    <!--  Tfoley!s's 12 buttons -->
+    
+    <button class="theButtons" id="button1" onclick="document.getElementById('button2').style.opacity = '0'" >1</button>
+    <button class="theButtons" id="button2"onclick="document.getElementById('button2').style.opacity = '100'" >2</button>
+    <button class="theButtons" id="button3"onclick="document.getElementById('button5').style.position = 'absolute';document.getElementById('button5').style.top = '200px';" >3</button>
+    <button class="theButtons" id="button4"onclick="document.getElementById('button4').style.color = 'green';document.getElementById('button4').style.width = '80px'; " >4</button>
+    <button class="theButtons" id="button5" onclick="document.getElementById('button7').style.background = 'magenta'" >5</button>
+    <button class="theButtons"  id="button6" onmouseover="document.getElementById('button6').style.opacity = '0'" onmouseout="document.getElementById('button6').style.opacity = '100'" onclick="document.getElementById('button6').style.display = 'none'" >6</button>
+    <button class="theButtons" id='button7' onmouseover="document.getElementById('button7').innerHTML = 'DO NOT CLICK ME';" onclick="changeButtons();" >7</button>
+    <button class="theButtons" id='button8' onclick="document.body.style.background='red'" >8</button>
+    <button class="theButtons" onclick="document.body.style.background ='#99ddff'" >9</button>
+    <button class="theButtons" onclick="document.body.style.background ='#ddff99'"; >10</button>
+    <button class="theButtons" onclick="document.body.style.background='tomato'" >11</button>
+    <button class="theButtons" onclick="displayPrompt()" >12</button>
+
+    <h1 id="answer"></h1>
+    
+
   </body>
 </html>
