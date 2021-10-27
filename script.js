@@ -2,7 +2,7 @@ let button7Clicks = 0;
 
 
 function changeButtons() {
-  document.getElementById('button8').style.color = "red";
+  document.getElementById('button8').style.color = "blue";
   document.getElementById("button8").style.fontSize = "20px";
   button7Clicks = button7Clicks + 1;
   if (button7Clicks > 1 ) {
