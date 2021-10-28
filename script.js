@@ -25,3 +25,46 @@ function scream() {
 
 let x = 1;
 
+
+
+
+function scaryFunction() {
+  document.body.style.background='#b30e0b'
+  var audio = new Audio('Scream.mp3');
+  audio.volume = 0.1; //you're welcome
+  audio.play();
+
+}
+
+var handX=0
+var handY=0
+
+function handSpin() {
+  handX = Math.sin(Date.now() * 0.003) * 80 - 170
+  handY = Math.cos(Date.now() * 0.003) * 80 - 60
+  document.getElementById('Hand').style.left=handX + "px";
+  document.getElementById('Hand').style.top=handY + "px";
+}
+
+var drakeFeeling = 0
+var drakeColor = 0
+
+function drake() {
+  if (drakeFeeling == 0 && drakeColor == 0) {
+    document.getElementById('drake').src = 'drake1.png'
+  }
+  if (drakeFeeling == 1 && drakeColor == 0) {
+    document.getElementById('drake').src = 'drake2.png'
+    feeling = 1;
+  }
+  if (drakeFeeling == 0 && drakeColor == 1) {
+    document.getElementById('drake').src = 'drake3.png'
+  }
+  if (drakeFeeling == 1 && drakeColor == 1) {
+    document.getElementById('drake').src = 'drake4.png'
+  }
+}
+
+
+setInterval(function(){handSpin()}, 1);
+setInterval(function(){drake()}, 1);
