@@ -63,7 +63,7 @@ img#hiddenimage2:hover{
 
 p#hiddentext{
   display:none;
-
+}
 #turn{
   transform: rotateY(45deg);
 }
