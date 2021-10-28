@@ -97,6 +97,25 @@ h1:hover {
 display:none;
 
 }
-  
-  
-  
+
+button{
+width: 50px;
+}
+
+button:hover{
+transition: 2s;
+background: rgb(30, 82, 255);
+width: 65px;
+position:relative;
+top:10px;
+transform: rotateY(360deg);
+}
+
+#HiddenText{
+  display: none;
+}
+
+#SecretButton {
+  display: none;
+}
+
