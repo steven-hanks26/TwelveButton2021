@@ -30,7 +30,7 @@ let x = 1;
 
 function scaryFunction() {
   document.body.style.background='#b30e0b'
-  var audio = new Audio('Scream.mp3');
+  var audio = new Audio('AJimages/Scream.mp3');
   audio.volume = 0.1; //you're welcome
   audio.play();
 
