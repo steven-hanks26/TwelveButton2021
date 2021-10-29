@@ -51,17 +51,17 @@ var drakeColor = 0
 
 function drake() {
   if (drakeFeeling == 0 && drakeColor == 0) {
-    document.getElementById('drake').src = 'drake1.png'
+    document.getElementById('drake').src = 'AJimages/drake1.png'
   }
   if (drakeFeeling == 1 && drakeColor == 0) {
-    document.getElementById('drake').src = 'drake2.png'
+    document.getElementById('drake').src = 'AJimages/drake2.png'
     feeling = 1;
   }
   if (drakeFeeling == 0 && drakeColor == 1) {
-    document.getElementById('drake').src = 'drake3.png'
+    document.getElementById('drake').src = 'AJimages/drake3.png'
   }
   if (drakeFeeling == 1 && drakeColor == 1) {
-    document.getElementById('drake').src = 'drake4.png'
+    document.getElementById('drake').src = 'AJimages/drake4.png'
   }
 }
 
