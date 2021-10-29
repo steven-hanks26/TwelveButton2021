@@ -119,3 +119,83 @@ transform: rotateY(360deg);
   display: none;
 }
 
+button {
+  background-color:grey;
+  transition:1s;
+  width:50px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+button:hover {
+  width:60px;
+  position: relative;
+}
+
+#b5:hover {
+  color:lime;
+  outline-color:lime;
+}
+
+#b6:hover {
+  color:red;
+  outline-color:red;
+}
+
+#b7:hover {
+  background-color: #9900D6;
+}
+
+#b8:hover {
+  background-color: #C6A500;
+}
+
+#b9:hover {
+  left:-30px;
+}
+
+#b10:hover {
+  left:30px;
+}
+
+#b11:hover {
+  transform: rotate(180deg);
+}
+
+#b12:hover {
+  transform: rotateX(180deg);
+}
+
+img#HiddenImage {
+    display: none;
+  }
+
+body {
+  
+}
+
+#Hand{
+  position:relative;
+}
+#Hand:onclick{
+  color:red; 
+}
+#AJpage {
+  transform-origin:center;
+  transition: 1s;
+}
+
+#portal {
+  display: none;
+  position:relative;
+  bottom:270px;
+  right:40px;
+}
+
+#drake {
+  left:0px;
+  position:relative;
+  transition:2s;
+}
+
