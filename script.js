@@ -26,7 +26,7 @@ function scream() {
 let x = 1;
 
 
-
+// -----=---=-=-   AJ's script   -=-=---=-------
 
 function scaryFunction() {
   document.body.style.background='#b30e0b'
