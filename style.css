@@ -1,4 +1,5 @@
 button{
+  color: gainsboro;
   width: 60px;
   height: 30px;
 }
@@ -17,6 +18,188 @@ button:hover{
 p#hidden{
   display: none;
 }
+
 h1{
   display: none
 }
+
+
+h2{
+  display: none;
+}
+
+
+button {
+  width: 30px;
+  height: 20px;
+  background: rgb(119, 246, 255);
+  transition: width  linear 0.5s;
+}
+button:hover{
+  width: 40px;
+  background: rgb(129, 129, 236);
+  position: relative;
+  top: -6px;
+}
+button#hidden1{
+  display:none;
+}
+button#hidden2{
+  display:none;
+}
+button#hidden3{
+  display:none;
+}
+img#hiddenimage{
+  display:none;
+  transform: translate(50px, 100px);
+}
+img#hiddenimage:hover{
+  transform: rotate(50deg);
+}
+
+img#hiddenimage2{
+  display:none;
+  transition: width 2s, height 2s, transform 2s;
+}
+img#hiddenimage2:hover{
+  transform: rotateY(150deg);
+}
+
+p#hiddentext{
+  display:none;
+}
+#turn{
+  transform: rotateY(45deg);
+}
+
+button:hover {
+  border: 10px solid tomato;
+}
+
+button.number{
+  border: 5px solid black;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 1s;
+}
+
+
+#button7 {
+  position: absolute;
+  bottom: 50px;
+  left: 40px;
+  
+}
+
+  h6{
+display:none;
+
+}
+
+button{
+width: 50px;
+}
+
+button:hover{
+transition: 2s;
+background: rgb(30, 82, 255);
+width: 65px;
+position:relative;
+top:10px;
+transform: rotateY(360deg);
+}
+
+#HiddenText{
+  display: none;
+}
+
+#SecretButton {
+  display: none;
+}
+
+/* AJ Berman's css */
+
+button {
+  background-color:grey;
+  transition:1s;
+  width:50px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+button:hover {
+  width:60px;
+  position: relative;
+}
+
+#b5:hover {
+  color:lime;
+  outline-color:lime;
+}
+
+#b6:hover {
+  color:red;
+  outline-color:red;
+}
+
+#b7:hover {
+  background-color: #9900D6;
+}
+
+#b8:hover {
+  background-color: #C6A500;
+}
+
+#b9:hover {
+  left:-30px;
+}
+
+#b10:hover {
+  left:30px;
+}
+
+#b11:hover {
+  transform: rotate(180deg);
+}
+
+#b12:hover {
+  transform: rotateX(180deg);
+}
+
+img#HiddenImage {
+    display: none;
+  }
+
+body {
+  
+}
+
+#Hand{
+  position:relative;
+}
+#Hand:onclick{
+  color:red; 
+}
+#AJpage {
+  transform-origin:center;
+  transition: 1s;
+}
+
+#portal {
+  display: none;
+  position:relative;
+  bottom:270px;
+  right:40px;
+}
+
+#drake {
+  left:0px;
+  position:relative;
+  transition:2s;
+}
+
+
